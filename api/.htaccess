@@ -1,0 +1,32 @@
+RewriteEngine On
+
+
+#MAIN
+RewriteRule ^activate/([^/]*)$ index.php?licensekey=$1 [L]
+RewriteRule ^validate/host/([^/]*)/([^/]*)$ index.php?domain=$1&product=$2 [L]
+RewriteRule ^validate/licensekey/([^/]*)/([^/]*)$ index.php?license=$1&product=$2 [L]
+RewriteRule ^autoconfig/([^/]*)$ index.php?autoconfig=true&module=$1 [QSA]
+
+
+#API Management
+RewriteRule ^manage/([^/]*)/([^/]*)/([^/]*)$ index.php?handler=$2&apikey=$1&parameters=$3 [L]
+RewriteRule ^manage/([^/]*)/([^/]*)$ index.php?handler=$2&apikey=$1&parameters=NULL [L]
+RewriteRule ^manage/([^/]*)$ index.php?handler=$1&apikey=NULL&parameters=NULL [L]
+
+
+
+#END SLASH
+RewriteRule ^activate/([^/]*)/$ index.php?licensekey=$1 [L]
+RewriteRule ^validate/host/([^/]*)/([^/]*)/$ index.php?domain=$1&product=$2 [L]
+RewriteRule ^validate/licensekey/([^/]*)/([^/]*)/$ index.php?license=$1&product=$2 [L]
+RewriteRule ^autoconfig/([^/]*)/$ index.php?autoconfig=true&module=$1 [L]
+
+
+#NO PRODUCT AT END, USE DEFAULT PRODUCT CONFIGURED
+
+RewriteRule ^validate/host/([^/]*)$ index.php?domain=$1 [L]
+RewriteRule ^validate/licensekey/([^/]*)$ index.php?license=$1 [L]
+
+#END SLASH
+RewriteRule ^validate/host/([^/]*)/$ index.php?domain=$1 [L] 
+RewriteRule ^validate/licensekey/([^/]*)/$ index.php?license=$1 [L]

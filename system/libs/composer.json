@@ -1,0 +1,12 @@
+{
+    "require": {
+        "rncryptor/rncryptor": "^4.3",
+        "nelexa/zip": "^3.3",
+        "phpmailer/phpmailer": "^6.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "filp/whoops": "^2.3",
+        "symfony/var-dumper": "^4.1",
+        "hassankhan/config": "^2.0",
+        "phpseclib/phpseclib": "^2.0"
+    },
+}

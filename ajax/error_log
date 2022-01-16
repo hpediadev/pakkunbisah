@@ -1,0 +1,7 @@
+[15-Jan-2022 04:08:08 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:08:09 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:08:10 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:14:49 Asia/Jakarta] PHP Notice:  Undefined index: latest in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:26:35 Asia/Jakarta] PHP Notice:  Undefined index: signaturetype in /home/menescnk/license.gatewayku.my.id/ajax/index.php on line 361
+[15-Jan-2022 05:13:32 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/ajax/index.php on line 162
+[15-Jan-2022 05:13:32 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/ajax/index.php on line 169

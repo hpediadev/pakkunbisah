@@ -1,0 +1,145 @@
+[15-Jan-2022 03:58:08 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 03:58:08 Asia/Jakarta] PHP Warning:  Use of undefined constant SYSTEMPATH - assumed 'SYSTEMPATH' (this will throw an Error in a future version of PHP) in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:08 Asia/Jakarta] PHP Warning:  include_once(SYSTEMPATH/libs/log.php): failed to open stream: No such file or directory in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:08 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'SYSTEMPATH/libs/log.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:08 Asia/Jakarta] PHP Warning:  Use of undefined constant SYSTEMPATH - assumed 'SYSTEMPATH' (this will throw an Error in a future version of PHP) in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:08 Asia/Jakarta] PHP Warning:  include_once(SYSTEMPATH/libs/SignatureHandler.php): failed to open stream: No such file or directory in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:08 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'SYSTEMPATH/libs/SignatureHandler.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'PML_Log' not found in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php:8
+Stack trace:
+#0 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/composer/autoload_real.php(66): require()
+#1 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/composer/autoload_real.php(56): composerRequire924c6c053ec1ec2d75884f5b7e680f50('8de77430fb7ed90...', '/home/menescnk/...')
+#2 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/autoload.php(7): ComposerAutoloaderInit924c6c053ec1ec2d75884f5b7e680f50::getLoader()
+#3 /home/menescnk/license.gatewayku.my.id/system/libs/AESHelper.php(8): include_once('/home/menescnk/...')
+#4 /home/menescnk/license.gatewayku.my.id/system/autoloader.php(32): require_once('/home/menescnk/...')
+#5 /home/menescnk/license.gatewayku.my.id/index.php(10): include_once('/home/menescnk/...')
+#6 {main}
+  thrown in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:31 Asia/Jakarta] PHP Warning:  Use of undefined constant SYSTEMPATH - assumed 'SYSTEMPATH' (this will throw an Error in a future version of PHP) in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:31 Asia/Jakarta] PHP Warning:  include_once(SYSTEMPATH/libs/log.php): failed to open stream: No such file or directory in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:31 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'SYSTEMPATH/libs/log.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:31 Asia/Jakarta] PHP Warning:  Use of undefined constant SYSTEMPATH - assumed 'SYSTEMPATH' (this will throw an Error in a future version of PHP) in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:31 Asia/Jakarta] PHP Warning:  include_once(SYSTEMPATH/libs/SignatureHandler.php): failed to open stream: No such file or directory in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:31 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'SYSTEMPATH/libs/SignatureHandler.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 03:58:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'PML_Log' not found in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php:8
+Stack trace:
+#0 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/composer/autoload_real.php(66): require()
+#1 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/composer/autoload_real.php(56): composerRequire924c6c053ec1ec2d75884f5b7e680f50('8de77430fb7ed90...', '/home/menescnk/...')
+#2 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/autoload.php(7): ComposerAutoloaderInit924c6c053ec1ec2d75884f5b7e680f50::getLoader()
+#3 /home/menescnk/license.gatewayku.my.id/system/libs/AESHelper.php(8): include_once('/home/menescnk/...')
+#4 /home/menescnk/license.gatewayku.my.id/system/autoloader.php(32): require_once('/home/menescnk/...')
+#5 /home/menescnk/license.gatewayku.my.id/index.php(10): include_once('/home/menescnk/...')
+#6 {main}
+  thrown in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:06 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:00:07 Asia/Jakarta] PHP Warning:  Use of undefined constant SYSTEMPATH - assumed 'SYSTEMPATH' (this will throw an Error in a future version of PHP) in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:07 Asia/Jakarta] PHP Warning:  include_once(SYSTEMPATH/libs/log.php): failed to open stream: No such file or directory in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:07 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'SYSTEMPATH/libs/log.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:07 Asia/Jakarta] PHP Warning:  Use of undefined constant SYSTEMPATH - assumed 'SYSTEMPATH' (this will throw an Error in a future version of PHP) in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:07 Asia/Jakarta] PHP Warning:  include_once(SYSTEMPATH/libs/SignatureHandler.php): failed to open stream: No such file or directory in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:07 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'SYSTEMPATH/libs/SignatureHandler.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'PML_Log' not found in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php:8
+Stack trace:
+#0 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/composer/autoload_real.php(66): require()
+#1 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/composer/autoload_real.php(56): composerRequire924c6c053ec1ec2d75884f5b7e680f50('8de77430fb7ed90...', '/home/menescnk/...')
+#2 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/autoload.php(7): ComposerAutoloaderInit924c6c053ec1ec2d75884f5b7e680f50::getLoader()
+#3 /home/menescnk/license.gatewayku.my.id/system/libs/AESHelper.php(8): include_once('/home/menescnk/...')
+#4 /home/menescnk/license.gatewayku.my.id/system/autoloader.php(32): require_once('/home/menescnk/...')
+#5 /home/menescnk/license.gatewayku.my.id/index.php(10): include_once('/home/menescnk/...')
+#6 {main}
+  thrown in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:11 Asia/Jakarta] PHP Warning:  Use of undefined constant SYSTEMPATH - assumed 'SYSTEMPATH' (this will throw an Error in a future version of PHP) in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:11 Asia/Jakarta] PHP Warning:  include_once(SYSTEMPATH/libs/log.php): failed to open stream: No such file or directory in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:11 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'SYSTEMPATH/libs/log.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:11 Asia/Jakarta] PHP Warning:  Use of undefined constant SYSTEMPATH - assumed 'SYSTEMPATH' (this will throw an Error in a future version of PHP) in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:11 Asia/Jakarta] PHP Warning:  include_once(SYSTEMPATH/libs/SignatureHandler.php): failed to open stream: No such file or directory in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:11 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'SYSTEMPATH/libs/SignatureHandler.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'PML_Log' not found in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php:8
+Stack trace:
+#0 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/composer/autoload_real.php(66): require()
+#1 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/composer/autoload_real.php(56): composerRequire924c6c053ec1ec2d75884f5b7e680f50('8de77430fb7ed90...', '/home/menescnk/...')
+#2 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/autoload.php(7): ComposerAutoloaderInit924c6c053ec1ec2d75884f5b7e680f50::getLoader()
+#3 /home/menescnk/license.gatewayku.my.id/system/libs/AESHelper.php(8): include_once('/home/menescnk/...')
+#4 /home/menescnk/license.gatewayku.my.id/system/autoloader.php(32): require_once('/home/menescnk/...')
+#5 /home/menescnk/license.gatewayku.my.id/index.php(10): include_once('/home/menescnk/...')
+#6 {main}
+  thrown in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:26 Asia/Jakarta] PHP Warning:  Use of undefined constant SYSTEMPATH - assumed 'SYSTEMPATH' (this will throw an Error in a future version of PHP) in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:26 Asia/Jakarta] PHP Warning:  include_once(SYSTEMPATH/libs/log.php): failed to open stream: No such file or directory in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:26 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'SYSTEMPATH/libs/log.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:26 Asia/Jakarta] PHP Warning:  Use of undefined constant SYSTEMPATH - assumed 'SYSTEMPATH' (this will throw an Error in a future version of PHP) in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:26 Asia/Jakarta] PHP Warning:  include_once(SYSTEMPATH/libs/SignatureHandler.php): failed to open stream: No such file or directory in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:26 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'SYSTEMPATH/libs/SignatureHandler.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:00:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'PML_Log' not found in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php:8
+Stack trace:
+#0 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/composer/autoload_real.php(66): require()
+#1 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/composer/autoload_real.php(56): composerRequire924c6c053ec1ec2d75884f5b7e680f50('8de77430fb7ed90...', '/home/menescnk/...')
+#2 /home/menescnk/license.gatewayku.my.id/system/libs/vendor/autoload.php(7): ComposerAutoloaderInit924c6c053ec1ec2d75884f5b7e680f50::getLoader()
+#3 /home/menescnk/license.gatewayku.my.id/system/libs/AESHelper.php(8): include_once('/home/menescnk/...')
+#4 /home/menescnk/license.gatewayku.my.id/system/autoloader.php(32): require_once('/home/menescnk/...')
+#5 /home/menescnk/license.gatewayku.my.id/update.php(10): include_once('/home/menescnk/...')
+#6 {main}
+  thrown in /home/menescnk/license.gatewayku.my.id/system/libs/vendor/bin/sys/runner.php on line 8
+[15-Jan-2022 04:03:04 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:06:52 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:06:53 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 33
+[15-Jan-2022 04:06:53 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 41
+[15-Jan-2022 04:06:53 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 49
+[15-Jan-2022 04:06:53 Asia/Jakarta] PHP Notice:  Undefined index: name in /home/menescnk/license.gatewayku.my.id/assets/inc/topbar.php on line 17
+[15-Jan-2022 04:06:53 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:06:59 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 33
+[15-Jan-2022 04:06:59 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 41
+[15-Jan-2022 04:06:59 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 49
+[15-Jan-2022 04:06:59 Asia/Jakarta] PHP Notice:  Undefined index: name in /home/menescnk/license.gatewayku.my.id/assets/inc/topbar.php on line 17
+[15-Jan-2022 04:06:59 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:07:15 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 33
+[15-Jan-2022 04:07:15 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 41
+[15-Jan-2022 04:07:15 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 49
+[15-Jan-2022 04:07:15 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:07:56 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 33
+[15-Jan-2022 04:07:56 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 41
+[15-Jan-2022 04:07:56 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 49
+[15-Jan-2022 04:07:56 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:08:06 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:08:16 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:08:35 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:08:41 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 33
+[15-Jan-2022 04:08:41 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 41
+[15-Jan-2022 04:08:41 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/assets/inc/header.php on line 49
+[15-Jan-2022 04:08:41 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:10:50 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:10:51 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:11:25 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:13:23 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:13:23 Asia/Jakarta] PHP Notice:  Undefined index: latest in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:14:38 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:14:39 Asia/Jakarta] PHP Notice:  Undefined index: latest in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:14:47 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:14:48 Asia/Jakarta] PHP Notice:  Undefined index: latest in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:14:52 Asia/Jakarta] PHP Notice:  Undefined index: latest in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:16:04 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:16:04 Asia/Jakarta] PHP Notice:  Undefined index: latest in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:16:37 Asia/Jakarta] PHP Notice:  Undefined index: latest in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:16:44 Asia/Jakarta] PHP Notice:  Undefined index: latest in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:17:15 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST) in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 94
+[15-Jan-2022 04:17:46 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:17:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Tools::GetLatestVersion() in /home/menescnk/license.gatewayku.my.id/assets/inc/overview.php:17
+Stack trace:
+#0 /home/menescnk/license.gatewayku.my.id/index.php(69): include()
+#1 {main}
+  thrown in /home/menescnk/license.gatewayku.my.id/assets/inc/overview.php on line 17
+[15-Jan-2022 04:19:08 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '.0' (T_DNUMBER), expecting ')' in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 92
+[15-Jan-2022 04:20:00 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:20:00 Asia/Jakarta] PHP Notice:  Undefined variable: json in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 101
+[15-Jan-2022 04:20:00 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:20:32 Asia/Jakarta] PHP Notice:  Undefined variable: json in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 101
+[15-Jan-2022 04:20:32 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:21:11 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST) in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 93
+[15-Jan-2022 04:22:18 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:22:18 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type bool in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 106
+[15-Jan-2022 04:23:47 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:24:46 Asia/Jakarta] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/menescnk/license.gatewayku.my.id/system/libs/Tools.php on line 201
+[15-Jan-2022 04:56:43 Asia/Jakarta] PHP Notice:  Undefined index: name in /home/menescnk/license.gatewayku.my.id/assets/inc/topbar.php on line 17
+[15-Jan-2022 05:18:39 Asia/Jakarta] PHP Notice:  Undefined index: name in /home/menescnk/license.gatewayku.my.id/assets/inc/topbar.php on line 17
+[15-Jan-2022 05:18:51 Asia/Jakarta] PHP Notice:  Undefined index: name in /home/menescnk/license.gatewayku.my.id/assets/inc/topbar.php on line 17
+[15-Jan-2022 05:33:19 Asia/Jakarta] PHP Notice:  Undefined index: name in /home/menescnk/license.gatewayku.my.id/assets/inc/topbar.php on line 17
